@@ -21,7 +21,7 @@ function AboutMe(props) {
               начал заниматься фриланс-заказами и ушёл с постоянной работы.
             </p>
           </div>
-          <a href='https://github.com/MikkoPlus' className='about-me__link'>
+          <a href='https://github.com/' target="_blank" className='about-me__link' rel="noreferrer">
             Github
           </a>
         </div>

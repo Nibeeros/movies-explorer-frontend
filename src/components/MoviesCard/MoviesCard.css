@@ -4,7 +4,7 @@
 
 .movie-card__top {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .movie-card__img {

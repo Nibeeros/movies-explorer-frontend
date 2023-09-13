@@ -1,6 +1,6 @@
 .profile {
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .profile__wrapper {
   max-width: 1140px;

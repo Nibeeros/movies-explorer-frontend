@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 import './App.css';
@@ -16,6 +16,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [currentUser, setCurrentUser] = useState({});
+  const navigate = useNavigate();
   function handleLogin(e) {
     console.log(1);
   }
@@ -30,6 +31,7 @@ function App() {
 
   function handleLogOut(e) {
     console.log(22);
+    navigate('/');
   }
 
   useEffect(() => {

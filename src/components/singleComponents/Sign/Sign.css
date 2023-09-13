@@ -80,7 +80,7 @@
 @media (max-width: 440px) {
   .sign {
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 100vh;
     padding: 0;
     display: block;
