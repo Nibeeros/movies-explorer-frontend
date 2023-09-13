@@ -24,7 +24,7 @@ function Header({ isLoggedIn, isOnlyLogo }) {
         }`}
       >
         <Link to='/'>
-          <img src={logo} alt='logo' className='header__logo' />
+          <img src={logo} alt='логотип' className='header__logo' />
         </Link>
         {!isOnlyLogo && (
           <Navigation isLoggedIn={isLoggedIn} isMenuVisible={isMenuVisible} />

@@ -10,7 +10,7 @@ function MoviesCard({ isFavoriteMovie }) {
   return (
     <li className='movie-card'>
       <div className='movie-card__top'>
-        <img src={movieImg} alt='Фильм' className='movie-card__img' />
+        <img src={movieImg} alt='превью фильма' className='movie-card__img' />
         <div className='movie-card__controls'>
           {!isFavoriteMovie && !isSavedMoviesPage && (
             <button className='movie-card__control movie-card__control_save'>
