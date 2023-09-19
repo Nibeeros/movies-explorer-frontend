@@ -1,6 +1,32 @@
-@import url('./vendor/normalize.css');
-@import url('./vendor/fonts/font.css');
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/font.css);
 
-* {
-  -webkit-tap-highlight-color: transparent;
-}
+@import url(./components/App/App.css);
+
+@import url(./components/Header/Header.css);
+@import url(./components/Header/AuthArea/AuthArea.css);
+
+@import url(./components/Navigation/Navigation.css);
+@import url(./components/Navigation/Burger/Burger.css);
+
+@import url(./components/Footer/Footer.css);
+
+@import url(./pages/Main/Main.css);
+@import url(./pages/Main/Promo/Promo.css);
+@import url(./pages/Main/NavTab/NavTab.css);
+@import url(./pages/Main/AboutProject/AboutProject.css);
+@import url(./pages/Main/Techs/Techs.css);
+@import url(./pages/Main/AboutMe/AboutMe.css);
+@import url(./pages/Main/Portfolio/Portfolio.css);
+
+@import url(./pages/Movies/Preloader/Preloader.css);
+@import url(./pages/Movies/Movies.css);
+@import url(./pages/Movies/SearchForm/SearchForm.css);
+@import url(./pages/Movies/SearchForm/FilterCheckbox/FilterCheckbox.css);
+@import url(./pages/Movies/MoviesCardList/MoviesCardList.css);
+@import url(./pages/Movies/MoviesCard/MoviesCard.css);
+
+@import url(./pages/Profile/Profile.css);
+
+@import url(./components/PopupWithForm/PopupWithForm.css);
+@import url(./pages/NotFoundPage/NotFoundPage.css);
