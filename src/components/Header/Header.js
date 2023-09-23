@@ -2,8 +2,11 @@ import AuthArea from './AuthArea/AuthArea';
 import Navigation from '../Navigation/Navigation';
 import LogoIcon from '../../images/Svg/LogoIcon';
 import { useLocation } from 'react-router-dom';
+import { useContext } from 'react';
+import AppContext from '../../contexts/AppContext';
 
-const Header = (props) => {
+const Header = () => {
+  const appCtx = useContext(AppContext);
   const location = useLocation();
 
   return (
@@ -13,8 +16,8 @@ const Header = (props) => {
       }`}
     >
       <LogoIcon />
-      {!props.isLoggedIn && <AuthArea />}
-      {props.isLoggedIn && <Navigation />}
+      {!appCtx.isLoggedIn && <AuthArea />}
+      {appCtx.isLoggedIn && <Navigation />}
     </header>
   );
 };
