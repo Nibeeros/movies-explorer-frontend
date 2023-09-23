@@ -1,7 +1,7 @@
 class MainApi {
   constructor() {
-    this._baseUrl = 'api.nibfilm.nomoredomainsicu.ru';
-    // this._baseUrl = 'http://localhost:4001';
+    // this._baseUrl = 'https://api.nibfilm.nomoredomainsicu.ru';
+    this._baseUrl = 'http://localhost:4001';
     this._headers = {
       'Content-Type': 'application/json',
     };

@@ -4,4 +4,4 @@
 
 Ссылка на [Сайт](https://nibfilm.nomoredomainsicu.ru/ "Сайт на сервере")
 
-Ссылка на [пул-реквест]()
+Ссылка на [пул-реквест](https://github.com/Nibeeros/movies-explorer-frontend/pull/2 "Ссылка на пул-реквест")
